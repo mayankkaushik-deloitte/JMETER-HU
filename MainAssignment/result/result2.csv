@@ -1,0 +1,20 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1650001892633,1159,/login-2,200,OK,Thread Group - Contact 6-1,text,true,,561,488,1,4,https://api.demoblaze.com/login,1158,0,775
+1650001893797,394,/check-22,200,OK,Thread Group - Contact 6-1,text,true,,643,475,1,4,https://api.demoblaze.com/check,394,0,0
+1650001893585,606,Registration,200,OK,Thread Group - Register 1-1,text,false,User already exist.,698,484,1,4,https://api.demoblaze.com/signup,605,0,202
+1650001893586,1013,Login,200,OK,Thread Group - Login 2-1,text,true,,506,483,1,4,https://api.demoblaze.com/login,1013,0,617
+1650001894197,404,contact/check-49,200,OK,Thread Group - Contact 6-1,text,true,,752,475,1,4,https://api.demoblaze.com/check,404,0,0
+1650001893585,1628,Invalid Login,200,OK,Thread Group - Invalid Login 3-1,text,false,"Value expected to match regexp 'User does not exist.', but it did not match: 'Wrong password.'",553,476,1,3,https://api.demoblaze.com/login,1628,0,1230
+1650001898223,369,Registration,200,OK,Thread Group - Register 1-1,text,false,User already exist.,710,482,1,3,https://api.demoblaze.com/signup,369,0,0
+1650001898612,310,Login,200,OK,Thread Group - Login 2-1,text,true,,649,481,1,3,https://api.demoblaze.com/login,309,0,0
+1650001899259,357,Invalid Login,400,Bad Request,Thread Group - Invalid Login 3-1,text,false,Expected to find an object with property ['errorMessage'] in path $ but found 'java.lang.String'. This is not a json object according to the JsonProvider: 'com.jayway.jsonpath.spi.json.JsonSmartJsonProvider'.,495,473,1,3,https://api.demoblaze.com/login,357,0,0
+1650001902614,339,Registration,200,OK,Thread Group - Register 1-1,text,false,User already exist.,601,483,1,3,https://api.demoblaze.com/signup,338,0,0
+1650001902941,354,Login,200,OK,Thread Group - Login 2-1,text,true,,462,482,1,3,https://api.demoblaze.com/login,353,0,0
+1650001903646,374,Invalid Login,200,OK,Thread Group - Invalid Login 3-1,text,false,"Value expected to match regexp 'User does not exist.', but it did not match: 'Wrong password.'",628,478,1,3,https://api.demoblaze.com/login,374,0,0
+1650001906972,342,Registration,200,OK,Thread Group - Register 1-1,text,false,User already exist.,704,484,1,3,https://api.demoblaze.com/signup,338,0,0
+1650001907316,389,Login,200,OK,Thread Group - Login 2-1,text,true,,474,483,1,3,https://api.demoblaze.com/login,389,0,0
+1650001908048,374,Invalid Login,200,OK,Thread Group - Invalid Login 3-1,text,true,,642,481,1,3,https://api.demoblaze.com/login,374,0,0
+1650001911321,377,Registration,200,OK,Thread Group - Register 1-1,text,false,User already exist.,490,485,1,2,https://api.demoblaze.com/signup,377,0,0
+1650001911725,383,Login,200,OK,Thread Group - Login 2-1,text,true,,701,484,1,2,https://api.demoblaze.com/login,383,0,0
+1650001915705,397,Registration,200,OK,Thread Group - Register 1-1,text,false,User already exist.,523,485,1,2,https://api.demoblaze.com/signup,397,0,0
+1650001916130,382,Login,200,OK,Thread Group - Login 2-1,text,true,,605,484,1,2,https://api.demoblaze.com/login,382,0,0
